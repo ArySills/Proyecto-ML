@@ -1,0 +1,97 @@
+.logo-ml{
+    padding: 20px;
+    padding-top: 40px;
+    width: 150px;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #EAC926;
+}
+
+h3 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.header-nav {
+    font-size: 12px;
+}
+
+.nav-options {
+    display: block;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+p {
+    font-size: 12px;
+}
+
+.search-bar {
+    margin-left: 10px; 
+}
+
+.search-icon {
+    display: block;
+    background-color: #ebebeb;
+    border-radius: 20%;
+    max-width: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #666;
+    margin-top: 2px;
+    padding-top: 1.5px;
+    margin-left: 10px;
+}
+
+.burger-menu {
+    display: block;
+    background-color: #1259c3;;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 5px;
+    max-width: 35px;
+    border-radius: 20%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.footer-icons {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.precio {
+    font-size: 18px;
+    }
+    
+.descuento {
+    font-size: 16px;
+    }
+    
+.descripcion {
+    font-size: 16px;
+    }
+    
+
+.footer-bloque {
+    text-align: center;
+    line-height: 6px;
+}
