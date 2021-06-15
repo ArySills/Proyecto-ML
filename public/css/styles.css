@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   
+
+
 .logo-ml{
     padding: 20px;
     padding-top: 40px;
@@ -79,16 +87,21 @@ p {
 }
 
 
-main img {
-    display: block;
-    width: 90vw;
+
+
+.contenedor-articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-main {
-    text-align: center;
-    margin: auto;
-    width: 90vw;
+.caja-grande-prod{
+    width: 296px;
+    margin-bottom: 20px;
 }
+
+
 
 .caja-interna-prod{
     border-top: 1px solid #ebebeb;
@@ -96,8 +109,14 @@ main {
     text-align: left;
     padding-left: 15px;
     padding-top: 15px;
+    width: auto;
 }
 
+.fotos-prod{
+    border-style: none;
+    width: 100%;
+    height: auto;
+}
 
 
 .footer-icons {
@@ -117,6 +136,7 @@ main {
     font-size: 15px;
     padding-left: 4px;
     padding-bottom: 10px;
+    
 }
 .descuento {
     font-size: 16px;
@@ -136,3 +156,25 @@ main {
     text-align: center;
     line-height: 6px;
 }
+
+@media (max-width: 361px) {
+    .header-nav{
+        display: none;
+    }    
+    .descripcion{
+        display: none;
+    }
+}
+
+@media (min-width: 361px){
+    .burger-menu{
+        display: none;
+    }
+    .caja-grande-prod{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width: 769px){
+    
+    }
