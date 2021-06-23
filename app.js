@@ -9,8 +9,8 @@ app.use (express.static (publicPath));
 
 
 
-app.listen (3000, () => {
-    console.log ("servidor levantado");
+app.listen (process.env.PORT || 3000, function () {
+    console.log ("servidor corriendo en el puerto 3000");
 })
 
 app.get ("/", (req, res) => {
